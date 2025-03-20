@@ -120,6 +120,7 @@ p {
 }
 .features-header {
   padding-top: 8px;
+  margin-bottom: 8px;
 }
 .team-list {
   display: flex;
@@ -147,26 +148,43 @@ p {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  width: 496px;
+  max-width: 496px;
   padding-bottom: 48px;
 }
+
 .button {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
   font-weight: 500;
+  display: block;
+  min-width: 169px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  gap: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #fff;
-  background-color: #4d5ae5;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
   margin-bottom: 188px;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: row;
-  gap: 10px;
 }
+
 .button:hover,
 .button:focus {
   background-color: #404bbf;
@@ -177,6 +195,7 @@ p {
 }
 .page-footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .section-header {
   line-height: 1.11;
@@ -186,6 +205,7 @@ p {
   margin-left: auto;
   padding-top: 120px;
   padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .footer-text {
   font-weight: 400;
@@ -215,6 +235,7 @@ p {
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
+  margin-bottom: 8px;
 }
 .team-image {
   background-color: #ffffff;
@@ -231,10 +252,12 @@ p {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
+  display: inline-block;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-bottom: 16px;
 }
 .portfolio-image {
   display: block;
@@ -309,6 +332,9 @@ ol {
   justify-content: center;
   flex-direction: column;
   gap: 8px;
+}
+.solution-section {
+  padding: 188px 0;
 }
 .portfolio-item {
   display: flex;
