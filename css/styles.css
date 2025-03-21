@@ -221,7 +221,6 @@ p {
   text-transform: capitalize;
   margin-bottom: 8px;
   display: block;
-  margin-left: 16px;
 }
 .team-image {
   background-color: #ffffff;
@@ -232,7 +231,6 @@ p {
 }
 .portfolio-text {
   display: block;
-  margin-left: 16px;
 }
 
 .portfolio-header {
