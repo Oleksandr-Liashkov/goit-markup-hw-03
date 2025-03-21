@@ -202,7 +202,7 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  margin-left: 156px;
+  text-align: left;
   max-width: 264px;
 }
 
@@ -250,7 +250,7 @@ p {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-bottom: 16px;
-  margin-left: 156px;
+  text-align: left;
 }
 .portfolio-image {
   display: block;
