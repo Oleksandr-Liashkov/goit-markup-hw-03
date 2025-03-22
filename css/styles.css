@@ -118,7 +118,6 @@ p {
   margin-right: 76px;
 }
 .features-header {
-  margin-top: 8px;
   margin-bottom: 8px;
 }
 .team-list {
@@ -207,7 +206,6 @@ p {
 .team-text {
   font-size: 16px;
   text-align: center;
-  margin-top: 8px;
 }
 .portfolio-list {
   margin-right: auto;
@@ -217,7 +215,6 @@ p {
 }
 .portfolio-header {
   line-height: 1.11;
-  text-align: center;
   text-transform: capitalize;
   margin-bottom: 8px;
   display: block;
@@ -259,8 +256,6 @@ p {
 .team-item {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
-  width: 264px;
-  margin-top: 72px;
 }
 
 .container {
@@ -313,13 +308,6 @@ ol {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
-  width: 360px;
-  height: 120px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  flex-direction: column;
-  gap: 8px;
   padding: 32px 16px;
 }
 .solution-section {
@@ -332,5 +320,4 @@ ol {
   row-gap: 48px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 72px;
 }
